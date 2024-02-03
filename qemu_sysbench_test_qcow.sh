@@ -6,7 +6,7 @@ SSH_PRIVATE_KEY="/Users/a25076/.ssh/id_rsa" # SSH 私钥的路径
 # SSH_PASSWORD="19980903" # SSH 用户密码
 
 # 主机上保存结果的目录
-RESULTS_DIR="/Users/a25076/Desktop/241CloudComputing/QEMU/result"
+RESULTS_DIR="/Users/a25076/Desktop/241CloudComputing/QEMU/result_qcow"
 mkdir -p $RESULTS_DIR
 
 # 测试配置
