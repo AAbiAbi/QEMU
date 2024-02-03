@@ -1,0 +1,180 @@
+sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
+
+128 files, 16384Kb each, 2048Mb total
+Creating files for the test...
+Extra file open flags: (none)
+Extending existing file test_file.0
+Extending existing file test_file.1
+Extending existing file test_file.2
+Extending existing file test_file.3
+Extending existing file test_file.4
+Extending existing file test_file.5
+Extending existing file test_file.6
+Extending existing file test_file.7
+Extending existing file test_file.8
+Extending existing file test_file.9
+Extending existing file test_file.10
+Extending existing file test_file.11
+Extending existing file test_file.12
+Extending existing file test_file.13
+Extending existing file test_file.14
+Extending existing file test_file.15
+Extending existing file test_file.16
+Extending existing file test_file.17
+Extending existing file test_file.18
+Extending existing file test_file.19
+Extending existing file test_file.20
+Extending existing file test_file.21
+Extending existing file test_file.22
+Extending existing file test_file.23
+Extending existing file test_file.24
+Extending existing file test_file.25
+Extending existing file test_file.26
+Extending existing file test_file.27
+Extending existing file test_file.28
+Extending existing file test_file.29
+Extending existing file test_file.30
+Extending existing file test_file.31
+Extending existing file test_file.32
+Extending existing file test_file.33
+Extending existing file test_file.34
+Extending existing file test_file.35
+Extending existing file test_file.36
+Extending existing file test_file.37
+Extending existing file test_file.38
+Extending existing file test_file.39
+Extending existing file test_file.40
+Extending existing file test_file.41
+Extending existing file test_file.42
+Extending existing file test_file.43
+Extending existing file test_file.44
+Extending existing file test_file.45
+Extending existing file test_file.46
+Extending existing file test_file.47
+Extending existing file test_file.48
+Extending existing file test_file.49
+Extending existing file test_file.50
+Extending existing file test_file.51
+Extending existing file test_file.52
+Extending existing file test_file.53
+Extending existing file test_file.54
+Extending existing file test_file.55
+Extending existing file test_file.56
+Extending existing file test_file.57
+Extending existing file test_file.58
+Extending existing file test_file.59
+Extending existing file test_file.60
+Extending existing file test_file.61
+Extending existing file test_file.62
+Extending existing file test_file.63
+Extending existing file test_file.64
+Extending existing file test_file.65
+Extending existing file test_file.66
+Extending existing file test_file.67
+Extending existing file test_file.68
+Extending existing file test_file.69
+Extending existing file test_file.70
+Extending existing file test_file.71
+Extending existing file test_file.72
+Extending existing file test_file.73
+Extending existing file test_file.74
+Extending existing file test_file.75
+Extending existing file test_file.76
+Extending existing file test_file.77
+Extending existing file test_file.78
+Extending existing file test_file.79
+Extending existing file test_file.80
+Extending existing file test_file.81
+Extending existing file test_file.82
+Extending existing file test_file.83
+Extending existing file test_file.84
+Extending existing file test_file.85
+Extending existing file test_file.86
+Extending existing file test_file.87
+Extending existing file test_file.88
+Extending existing file test_file.89
+Extending existing file test_file.90
+Extending existing file test_file.91
+Extending existing file test_file.92
+Extending existing file test_file.93
+Extending existing file test_file.94
+Extending existing file test_file.95
+Extending existing file test_file.96
+Extending existing file test_file.97
+Extending existing file test_file.98
+Extending existing file test_file.99
+Extending existing file test_file.100
+Extending existing file test_file.101
+Extending existing file test_file.102
+Extending existing file test_file.103
+Extending existing file test_file.104
+Extending existing file test_file.105
+Extending existing file test_file.106
+Extending existing file test_file.107
+Extending existing file test_file.108
+Extending existing file test_file.109
+Extending existing file test_file.110
+Extending existing file test_file.111
+Extending existing file test_file.112
+Extending existing file test_file.113
+Extending existing file test_file.114
+Extending existing file test_file.115
+Extending existing file test_file.116
+Extending existing file test_file.117
+Extending existing file test_file.118
+Extending existing file test_file.119
+Extending existing file test_file.120
+Extending existing file test_file.121
+Extending existing file test_file.122
+Extending existing file test_file.123
+Extending existing file test_file.124
+Extending existing file test_file.125
+Extending existing file test_file.126
+Extending existing file test_file.127
+1073741824 bytes written in 2.08 seconds (493.20 MiB/sec).
+sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Extra file open flags: (none)
+128 files, 16MiB each
+2GiB total file size
+Block size 16KiB
+Number of IO requests: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Initializing worker threads...
+
+Threads started!
+
+
+File operations:
+    reads/s:                      4231.89
+    writes/s:                     2821.26
+    fsyncs/s:                     9028.13
+
+Throughput:
+    read, MiB/s:                  66.12
+    written, MiB/s:               44.08
+
+General statistics:
+    total time:                          10.0090s
+    total number of events:              160841
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.06
+         max:                                    5.81
+         95th percentile:                        0.19
+         sum:                                 9957.21
+
+Threads fairness:
+    events (avg/stddev):           160841.0000/0.00
+    execution time (avg/stddev):   9.9572/0.00
+
