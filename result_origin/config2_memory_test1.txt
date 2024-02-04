@@ -15,23 +15,110 @@ Initializing worker threads...
 
 Threads started!
 
-Total operations: 512 ( 4147.98 per second)
+Total operations: 512 ( 4838.24 per second)
 
-4096.00 MiB transferred (33183.85 MiB/sec)
+4096.00 MiB transferred (38705.95 MiB/sec)
 
 
 General statistics:
-    total time:                          0.1226s
+    total time:                          0.1054s
     total number of events:              512
 
 Latency (ms):
          min:                                    0.20
-         avg:                                    0.24
-         max:                                    0.88
-         95th percentile:                        0.32
-         sum:                                  121.73
+         avg:                                    0.21
+         max:                                    0.32
+         95th percentile:                        0.23
+         sum:                                  105.05
 
 Threads fairness:
     events (avg/stddev):           512.0000/0.00
-    execution time (avg/stddev):   0.1217/0.00
+    execution time (avg/stddev):   0.1050/0.00
 
+Threads started!
+
+Total operations: 512 ( 4775.45 per second)
+
+4096.00 MiB transferred (38203.61 MiB/sec)
+
+
+General statistics:
+    total time:                          0.1065s
+    total number of events:              512
+
+Latency (ms):
+         min:                                    0.20
+         avg:                                    0.21
+         max:                                    0.43
+         95th percentile:                        0.23
+         sum:                                  105.80
+
+Threads fairness:
+    events (avg/stddev):           512.0000/0.00
+    execution time (avg/stddev):   0.1058/0.00
+
+  Threads started!
+
+Total operations: 512 ( 4430.05 per second)
+
+4096.00 MiB transferred (35440.38 MiB/sec)
+
+
+General statistics:
+    total time:                          0.1150s
+    total number of events:              512
+
+Latency (ms):
+         min:                                    0.20
+         avg:                                    0.22
+         max:                                    0.48
+         95th percentile:                        0.29
+         sum:                                  112.06
+
+Threads fairness:
+    events (avg/stddev):           512.0000/0.00
+    execution time (avg/stddev):   0.1121/0.00
+
+Threads started!
+
+Total operations: 512 ( 4552.14 per second)
+
+4096.00 MiB transferred (36417.10 MiB/sec)
+
+
+General statistics:
+    total time:                          0.1119s
+    total number of events:              512
+
+Latency (ms):
+         min:                                    0.20
+         avg:                                    0.22
+         max:                                    0.40
+         95th percentile:                        0.29
+         sum:                                  110.98
+
+Threads fairness:
+    events (avg/stddev):           512.0000/0.00
+    execution time (avg/stddev):   0.1110/0.00
+
+Threads started!
+
+Total operations: 512 ( 4533.01 per second)
+
+4096.00 MiB transferred (36264.11 MiB/sec)
+
+
+General statistics:
+    total time:                          0.1123s
+    total number of events:              512
+
+Latency (ms):
+         min:                                    0.20
+         avg:                                    0.22
+         max:                                    0.45
+         95th percentile:                        0.29
+         sum:                                  111.64
+
+Threads fairness:
+    events (avg/stddev):           512.0000/0.00
+    execution time (avg/stddev):   0.1116/0.00

@@ -1,0 +1,152 @@
+Config 4 - CPU Test 1
+Average Events per Second: 1251.89
+Min: 1235.73
+Max: 1274.63
+Standard Deviation: 13.97
+
+Config 4 - CPU Test 2
+Average Events per Second: 3301.80
+Min: 3244.12
+Max: 3350.93
+Standard Deviation: 34.56
+
+Config 4 - File IO Test 1
+
+Reads/s:
+Average: 2917.84
+Min: 2081.97
+Max: 3507.11
+Std. Dev: 476.82
+Writes/s:
+Average: 1945.20
+Min: 1387.95
+Max: 2338.07
+Std. Dev: 317.89
+Fsyncs/s:
+Average: 6231.37
+Min: 4450.70
+Max: 7489.02
+Std. Dev: 1016.98
+Throughput (MiB/s):
+Read:
+Average: 45.59
+Min: 32.53
+Max: 54.80
+Std. Dev: 7.45
+Written:
+Average: 30.39
+Min: 21.69
+Max: 36.53
+Std. Dev: 4.96
+General Statistics (Total Time in seconds):
+Average: 10.009
+Min: 10.0076
+Max: 10.0133
+Std. Dev: 0.00216
+
+Config 4 - File IO Test 2
+
+File Operations Per Second:
+Writes/s:
+Average: 13681.17
+Min: 13262.44
+Max: 14029.00
+Std. Dev: 292.53
+Fsyncs/s:
+Average: 17153.67
+Min: 16976.23
+Max: 17967.41
+Std. Dev: 370.33
+Throughput (MiB/s):
+Written:
+Average: 213.86
+Min: 207.23
+Max: 219.20
+Std. Dev: 4.53
+General Statistics (Total Time in seconds):
+Total Time:
+Average: 10.0058s
+Min: 10.0040s
+Max: 10.0072s
+Std. Dev: 0.00119
+Latency (ms) - Max:
+Max Latency:
+Average: 10.888s
+Min: 7.34s
+Max: 12.38s
+Std. Dev: 1.86
+
+Config 4 - Memory Test 1
+General Statistics:
+Total Time (s):
+
+Average: 0.11204
+Min: 0.1100
+Max: 0.1183
+Std. Dev: 0.0031
+Total Number of Events:
+
+All runs reported exactly 512 events, indicating consistent event handling across tests.
+Latency (ms):
+Minimum:
+Average: 0.19
+Min: 0.19
+Max: 0.19
+Std. Dev: 0.00 (consistent minimum latency across all tests)
+Average:
+Average: 0.212
+Min: 0.21
+Max: 0.22
+Std. Dev: 0.0039
+Maximum:
+Average: 0.412
+Min: 0.32
+Max: 0.61
+Std. Dev: 0.1169
+95th Percentile:
+Average: 0.276
+Min: 0.27
+Max: 0.29
+Std. Dev: 0.0074
+Total Latency Sum (ms):
+Average: 110.07
+Min: 107.89
+Max: 115.07
+Std. Dev: 2.71
+
+
+Config 4 - Memory Test 2
+
+General Statistics:
+Total Time (s):
+
+Average: 0.06546
+Min: 0.0581
+Max: 0.0706
+Std. Dev: 0.0044
+Total Number of Events:
+
+All runs reported exactly 512 events, indicating consistent event handling across tests.
+Latency (ms):
+Minimum:
+All runs reported a consistent minimum latency of 0.10 ms, showing uniform initial response times.
+Average:
+Average: 0.118
+Min: 0.11
+Max: 0.12
+Std. Dev: 0.004
+Maximum:
+Average: 0.334
+Min: 0.18
+Max: 0.56
+Std. Dev: 0.1532
+95th Percentile:
+Average: 0.146
+Min: 0.12
+Max: 0.16
+Std. Dev: 0.0156
+Total Latency Sum (ms):
+Average: 61.014
+Min: 56.10
+Max: 63.16
+Std. Dev: 2.60

@@ -3,135 +3,135 @@ sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
 128 files, 16384Kb each, 2048Mb total
 Creating files for the test...
 Extra file open flags: (none)
-Extending existing file test_file.0
-Extending existing file test_file.1
-Extending existing file test_file.2
-Extending existing file test_file.3
-Extending existing file test_file.4
-Extending existing file test_file.5
-Extending existing file test_file.6
-Extending existing file test_file.7
-Extending existing file test_file.8
-Extending existing file test_file.9
-Extending existing file test_file.10
-Extending existing file test_file.11
-Extending existing file test_file.12
-Extending existing file test_file.13
-Extending existing file test_file.14
-Extending existing file test_file.15
-Extending existing file test_file.16
-Extending existing file test_file.17
-Extending existing file test_file.18
-Extending existing file test_file.19
-Extending existing file test_file.20
-Extending existing file test_file.21
-Extending existing file test_file.22
-Extending existing file test_file.23
-Extending existing file test_file.24
-Extending existing file test_file.25
-Extending existing file test_file.26
-Extending existing file test_file.27
-Extending existing file test_file.28
-Extending existing file test_file.29
-Extending existing file test_file.30
-Extending existing file test_file.31
-Extending existing file test_file.32
-Extending existing file test_file.33
-Extending existing file test_file.34
-Extending existing file test_file.35
-Extending existing file test_file.36
-Extending existing file test_file.37
-Extending existing file test_file.38
-Extending existing file test_file.39
-Extending existing file test_file.40
-Extending existing file test_file.41
-Extending existing file test_file.42
-Extending existing file test_file.43
-Extending existing file test_file.44
-Extending existing file test_file.45
-Extending existing file test_file.46
-Extending existing file test_file.47
-Extending existing file test_file.48
-Extending existing file test_file.49
-Extending existing file test_file.50
-Extending existing file test_file.51
-Extending existing file test_file.52
-Extending existing file test_file.53
-Extending existing file test_file.54
-Extending existing file test_file.55
-Extending existing file test_file.56
-Extending existing file test_file.57
-Extending existing file test_file.58
-Extending existing file test_file.59
-Extending existing file test_file.60
-Extending existing file test_file.61
-Extending existing file test_file.62
-Extending existing file test_file.63
-Extending existing file test_file.64
-Extending existing file test_file.65
-Extending existing file test_file.66
-Extending existing file test_file.67
-Extending existing file test_file.68
-Extending existing file test_file.69
-Extending existing file test_file.70
-Extending existing file test_file.71
-Extending existing file test_file.72
-Extending existing file test_file.73
-Extending existing file test_file.74
-Extending existing file test_file.75
-Extending existing file test_file.76
-Extending existing file test_file.77
-Extending existing file test_file.78
-Extending existing file test_file.79
-Extending existing file test_file.80
-Extending existing file test_file.81
-Extending existing file test_file.82
-Extending existing file test_file.83
-Extending existing file test_file.84
-Extending existing file test_file.85
-Extending existing file test_file.86
-Extending existing file test_file.87
-Extending existing file test_file.88
-Extending existing file test_file.89
-Extending existing file test_file.90
-Extending existing file test_file.91
-Extending existing file test_file.92
-Extending existing file test_file.93
-Extending existing file test_file.94
-Extending existing file test_file.95
-Extending existing file test_file.96
-Extending existing file test_file.97
-Extending existing file test_file.98
-Extending existing file test_file.99
-Extending existing file test_file.100
-Extending existing file test_file.101
-Extending existing file test_file.102
-Extending existing file test_file.103
-Extending existing file test_file.104
-Extending existing file test_file.105
-Extending existing file test_file.106
-Extending existing file test_file.107
-Extending existing file test_file.108
-Extending existing file test_file.109
-Extending existing file test_file.110
-Extending existing file test_file.111
-Extending existing file test_file.112
-Extending existing file test_file.113
-Extending existing file test_file.114
-Extending existing file test_file.115
-Extending existing file test_file.116
-Extending existing file test_file.117
-Extending existing file test_file.118
-Extending existing file test_file.119
-Extending existing file test_file.120
-Extending existing file test_file.121
-Extending existing file test_file.122
-Extending existing file test_file.123
-Extending existing file test_file.124
-Extending existing file test_file.125
-Extending existing file test_file.126
-Extending existing file test_file.127
-1073741824 bytes written in 2.08 seconds (493.20 MiB/sec).
+Reusing existing file test_file.0
+Reusing existing file test_file.1
+Reusing existing file test_file.2
+Reusing existing file test_file.3
+Reusing existing file test_file.4
+Reusing existing file test_file.5
+Reusing existing file test_file.6
+Reusing existing file test_file.7
+Reusing existing file test_file.8
+Reusing existing file test_file.9
+Reusing existing file test_file.10
+Reusing existing file test_file.11
+Reusing existing file test_file.12
+Reusing existing file test_file.13
+Reusing existing file test_file.14
+Reusing existing file test_file.15
+Reusing existing file test_file.16
+Reusing existing file test_file.17
+Reusing existing file test_file.18
+Reusing existing file test_file.19
+Reusing existing file test_file.20
+Reusing existing file test_file.21
+Reusing existing file test_file.22
+Reusing existing file test_file.23
+Reusing existing file test_file.24
+Reusing existing file test_file.25
+Reusing existing file test_file.26
+Reusing existing file test_file.27
+Reusing existing file test_file.28
+Reusing existing file test_file.29
+Reusing existing file test_file.30
+Reusing existing file test_file.31
+Reusing existing file test_file.32
+Reusing existing file test_file.33
+Reusing existing file test_file.34
+Reusing existing file test_file.35
+Reusing existing file test_file.36
+Reusing existing file test_file.37
+Reusing existing file test_file.38
+Reusing existing file test_file.39
+Reusing existing file test_file.40
+Reusing existing file test_file.41
+Reusing existing file test_file.42
+Reusing existing file test_file.43
+Reusing existing file test_file.44
+Reusing existing file test_file.45
+Reusing existing file test_file.46
+Reusing existing file test_file.47
+Reusing existing file test_file.48
+Reusing existing file test_file.49
+Reusing existing file test_file.50
+Reusing existing file test_file.51
+Reusing existing file test_file.52
+Reusing existing file test_file.53
+Reusing existing file test_file.54
+Reusing existing file test_file.55
+Reusing existing file test_file.56
+Reusing existing file test_file.57
+Reusing existing file test_file.58
+Reusing existing file test_file.59
+Reusing existing file test_file.60
+Reusing existing file test_file.61
+Reusing existing file test_file.62
+Reusing existing file test_file.63
+Reusing existing file test_file.64
+Reusing existing file test_file.65
+Reusing existing file test_file.66
+Reusing existing file test_file.67
+Reusing existing file test_file.68
+Reusing existing file test_file.69
+Reusing existing file test_file.70
+Reusing existing file test_file.71
+Reusing existing file test_file.72
+Reusing existing file test_file.73
+Reusing existing file test_file.74
+Reusing existing file test_file.75
+Reusing existing file test_file.76
+Reusing existing file test_file.77
+Reusing existing file test_file.78
+Reusing existing file test_file.79
+Reusing existing file test_file.80
+Reusing existing file test_file.81
+Reusing existing file test_file.82
+Reusing existing file test_file.83
+Reusing existing file test_file.84
+Reusing existing file test_file.85
+Reusing existing file test_file.86
+Reusing existing file test_file.87
+Reusing existing file test_file.88
+Reusing existing file test_file.89
+Reusing existing file test_file.90
+Reusing existing file test_file.91
+Reusing existing file test_file.92
+Reusing existing file test_file.93
+Reusing existing file test_file.94
+Reusing existing file test_file.95
+Reusing existing file test_file.96
+Reusing existing file test_file.97
+Reusing existing file test_file.98
+Reusing existing file test_file.99
+Reusing existing file test_file.100
+Reusing existing file test_file.101
+Reusing existing file test_file.102
+Reusing existing file test_file.103
+Reusing existing file test_file.104
+Reusing existing file test_file.105
+Reusing existing file test_file.106
+Reusing existing file test_file.107
+Reusing existing file test_file.108
+Reusing existing file test_file.109
+Reusing existing file test_file.110
+Reusing existing file test_file.111
+Reusing existing file test_file.112
+Reusing existing file test_file.113
+Reusing existing file test_file.114
+Reusing existing file test_file.115
+Reusing existing file test_file.116
+Reusing existing file test_file.117
+Reusing existing file test_file.118
+Reusing existing file test_file.119
+Reusing existing file test_file.120
+Reusing existing file test_file.121
+Reusing existing file test_file.122
+Reusing existing file test_file.123
+Reusing existing file test_file.124
+Reusing existing file test_file.125
+Reusing existing file test_file.126
+Reusing existing file test_file.127
+No bytes written.
 sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
 
 Running the test with following options:
@@ -155,26 +155,122 @@ Threads started!
 
 
 File operations:
-    reads/s:                      4231.89
-    writes/s:                     2821.26
-    fsyncs/s:                     9028.13
+    reads/s:                      3255.22
+    writes/s:                     2170.15
+    fsyncs/s:                     6951.56
 
 Throughput:
-    read, MiB/s:                  66.12
-    written, MiB/s:               44.08
+    read, MiB/s:                  50.86
+    written, MiB/s:               33.91
 
 General statistics:
-    total time:                          10.0090s
-    total number of events:              160841
+    total time:                          10.0079s
+    total number of events:              123747
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.08
+         max:                                   11.14
+         95th percentile:                        0.19
+         sum:                                 9967.85
+
+Threads fairness:
+    events (avg/stddev):           123747.0000/0.00
+    execution time (avg/stddev):   9.9679/0.00
+
+
+File operations:
+    reads/s:                      4311.42
+    writes/s:                     2874.28
+    fsyncs/s:                     9208.56
+
+Throughput:
+    read, MiB/s:                  67.37
+    written, MiB/s:               44.91
+
+General statistics:
+    total time:                          10.0074s
+    total number of events:              163947
 
 Latency (ms):
          min:                                    0.00
          avg:                                    0.06
-         max:                                    5.81
-         95th percentile:                        0.19
-         sum:                                 9957.21
+         max:                                   11.76
+         95th percentile:                        0.17
+         sum:                                 9959.26
 
 Threads fairness:
-    events (avg/stddev):           160841.0000/0.00
-    execution time (avg/stddev):   9.9572/0.00
+    events (avg/stddev):           163947.0000/0.00
+    execution time (avg/stddev):   9.9593/0.00
 
+File operations:
+    reads/s:                      4753.51
+    writes/s:                     3169.00
+    fsyncs/s:                     10147.11
+
+Throughput:
+    read, MiB/s:                  74.27
+    written, MiB/s:               49.52
+
+General statistics:
+    total time:                          10.0087s
+    total number of events:              180739
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.06
+         max:                                  347.08
+         95th percentile:                        0.17
+         sum:                                 9956.15
+
+Threads fairness:
+    events (avg/stddev):           180739.0000/0.00
+    execution time (avg/stddev):   9.9561/0.00
+
+File operations:
+    reads/s:                      4022.48
+    writes/s:                     2681.65
+    fsyncs/s:                     8583.78
+
+Throughput:
+    read, MiB/s:                  62.85
+    written, MiB/s:               41.90
+
+General statistics:
+    total time:                          10.0081s
+    total number of events:              152885
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.06
+         max:                                   52.39
+         95th percentile:                        0.19
+         sum:                                 9926.33
+
+Threads fairness:
+    events (avg/stddev):           152885.0000/0.00
+    execution time (avg/stddev):   9.9263/0.00
+
+File operations:
+    reads/s:                      4395.80
+    writes/s:                     2930.46
+    fsyncs/s:                     9387.72
+
+Throughput:
+    read, MiB/s:                  68.68
+    written, MiB/s:               45.79
+
+General statistics:
+    total time:                          10.0073s
+    total number of events:              167145
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.06
+         max:                                   34.40
+         95th percentile:                        0.18
+         sum:                                 9951.46
+
+Threads fairness:
+    events (avg/stddev):           167145.0000/0.00
+    execution time (avg/stddev):   9.9515/0.00

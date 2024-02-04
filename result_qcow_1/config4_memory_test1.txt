@@ -1,0 +1,81 @@
+
+
+
+
+General statistics:
+    total time:                          0.1112s
+    total number of events:              512
+
+Latency (ms):
+         min:                                    0.19
+         avg:                                    0.21
+         max:                                    0.32
+         95th percentile:                        0.27
+         sum:                                  109.88
+
+Threads fairness:
+    events (avg/stddev):           512.0000/0.00
+    execution time (avg/stddev):   0.1099/0.00
+
+General statistics:
+    total time:                          0.1100s
+    total number of events:              512
+
+Latency (ms):
+         min:                                    0.19
+         avg:                                    0.21
+         max:                                    0.38
+         95th percentile:                        0.27
+         sum:                                  107.89
+
+Threads fairness:
+    events (avg/stddev):           512.0000/0.00
+    execution time (avg/stddev):   0.1079/0.00
+
+General statistics:
+    total time:                          0.1100s
+    total number of events:              512
+
+Latency (ms):
+         min:                                    0.19
+         avg:                                    0.21
+         max:                                    0.38
+         95th percentile:                        0.27
+         sum:                                  107.89
+
+Threads fairness:
+    events (avg/stddev):           512.0000/0.00
+    execution time (avg/stddev):   0.1079/0.00
+
+
+General statistics:
+    total time:                          0.1183s
+    total number of events:              512
+
+Latency (ms):
+         min:                                    0.19
+         avg:                                    0.22
+         max:                                    0.61
+         95th percentile:                        0.29
+         sum:                                  115.07
+
+Threads fairness:
+    events (avg/stddev):           512.0000/0.00
+    execution time (avg/stddev):   0.1151/0.00
+
+
+
+General statistics:
+    total time:                          0.1107s
+    total number of events:              512
+
+Latency (ms):
+         min:                                    0.19
+         avg:                                    0.21
+         max:                                    0.37
+         95th percentile:                        0.28
+         sum:                                  109.62
+
+Threads fairness:
+    events (avg/stddev):           512.0000/0.00
+    execution time (avg/stddev):   0.1096/0.00

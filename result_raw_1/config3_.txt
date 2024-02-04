@@ -1,0 +1,84 @@
+QEMU_RAW Config 3 - CPU Test 1
+Average Events per Second: 1236.90
+Min: 1218.69
+Max: 1250.26
+Standard Deviation: 11.01
+
+
+QEMU_RAW Config 3 - CPU Test 2
+Average Events per Second: 3236.29
+Min: 3211.17
+Max: 3250.0
+Standard Deviation: 15.58
+
+QEMU_RAW Config 3 - File IO Test 1
+
+Reads per Second
+Average: 3917.71
+Minimum: 3406.21
+Maximum: 4168.74
+Standard Deviation: 301.00
+Writes per Second
+Average: 2611.78
+Minimum: 2270.8
+Maximum: 2779.1
+Standard Deviation: 200.65
+Fsyncs per Second
+Average: 8363.56
+Minimum: 7275.77
+Maximum: 8904.62
+Standard Deviation: 640.80
+Throughput (Read, MiB/s)
+Average: 61.22
+Minimum: 53.22
+Maximum: 65.14
+Standard Deviation: 4.70
+Throughput (Write, MiB/s)
+Average: 40.81
+Minimum: 35.48
+Maximum: 43.42
+Standard Deviation: 3.13
+Latency (ms)
+Average: 0.07 (avg), 9.89 (max), 0.19 (95th percentile)
+Minimum Latency (avg/max/95th): 0.06/6.2/0.17
+Maximum Latency (avg/max/95th): 0.08/16.47/0.21
+Standard Deviation: 0.01 (avg), 4.02 (max), 0.015 (95th percentile)
+
+QEMU_RAW Config 3 - File IO Test 2
+
+Writes per Second
+Average: 18256.53
+Minimum: 17851.33
+Maximum: 18630.47
+Standard Deviation: 250.67
+Fsyncs per Second
+Average: 23438.62
+Minimum: 22850.00
+Maximum: 23851.80
+Standard Deviation: 322.81
+Throughput (Written, MiB/s)
+Average: 285.55
+Minimum: 278.93
+Maximum: 291.10
+Standard Deviation: 3.92
+
+QEMU_RAW Config 3 - Memory Test 1
+
+Average Operations Per Second: 4655.26
+Minimum Latency (ms): 0.20
+Average Latency (ms): 0.216
+Maximum Latency (ms): 0.63
+95th Percentile Latency (ms): 0.260
+Total Time (s): 0.1129
+Total Data Transferred (MiB): 4096.00
+
+
+QEMU_RAW Config 3 - Memory Test 2
+
+Average Operations Per Second: 9812.56
+Minimum Latency (ms): 0.10
+Average Latency (ms): 0.114
+Maximum Latency (ms): 0.30
+95th Percentile Latency (ms): 0.144
+Total Time (s): 0.06158
+Total Data Transferred (MiB): 2048.00

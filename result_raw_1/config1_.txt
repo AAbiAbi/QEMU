@@ -1,0 +1,129 @@
+QEMU_RAW Config 1 - CPU Test 1
+Average Events per Second: 1223.11
+Min: 1172.43
+Max: 1255.94
+Standard Deviation: 32.87
+
+
+QEMU_RAW Config 1 - CPU Test 2
+Average Events per Second: 3167.67
+Min: 3071.91
+Max: 3232.99
+Standard Deviation: 58.09
+
+QEMU_RAW Config 1 - Memory Test 1
+
+Operations per Second:
+Average: 4,685.20
+Min: 4,157.88
+Max: 4,966.36
+Standard Deviation: 321.75
+Throughput (MiB/sec):
+Average: 374.81
+Min: 332.63
+Max: 397.30
+Standard Deviation: 25.76
+Total Events:
+Consistent: 512 (across all runs)
+Total Time (s):
+Average: 0.1122
+Min: 0.1053
+Max: 0.1195
+Standard Deviation: 0.0047
+Maximum Latency (ms):
+Average: 0.458
+Min: 0.34
+Max: 0.64
+Standard Deviation: 0.120
+
+
+
+QEMU_RAW Config 1 - Memory Test 2
+
+Operations per Second:
+Average: 9,743.40 ops/sec
+Min: 9,595.25 ops/sec
+Max: 9,845.51 ops/sec
+Standard Deviation: 99.54 ops/sec
+Throughput (MiB/sec):
+Average: 38913.62 MiB/sec
+Min: 38381.02 MiB/sec
+Max: 39382.04 MiB/sec
+Standard Deviation: 397.06 MiB/sec
+Total Events:
+Consistent: 512 (across all runs)
+Total Time (s):
+Average: 0.0642s
+Min: 0.0592s
+Max: 0.0687s
+Standard Deviation: 0.0037s
+Maximum Latency (ms):
+Average: 0.342
+Min: 0.19
+Max: 0.88
+Standard Deviation: 0.27
+
+QEMU_RAW Config 1 - File IO Test 1
+
+Throughput (MiB/s):
+Read Throughput:
+Average: 46.08 MiB/s
+Min: 38.31 MiB/s
+Max: 49.80 MiB/s
+Standard Deviation: 4.34 MiB/s
+Write Throughput:
+Average: 30.72 MiB/s
+Min: 25.54 MiB/s
+Max: 33.20 MiB/s
+Standard Deviation: 2.89 MiB/s
+Latency (ms):
+Average Latency:
+Average: 0.088 ms
+Min: 0.08 ms
+Max: 0.11 ms
+Standard Deviation: 0.012 ms
+Maximum Latency:
+Average: 37.77 ms
+Min: 7.09 ms
+Max: 125.68 ms
+Standard Deviation: 44.50 ms
+General Statistics:
+Total Time (s):
+Average: 10.009 s
+Min: 10.007 s
+Max: 10.011 s
+Standard Deviation: 0.0013 s
+
+
+QEMU_RAW Config 1 - File IO Test 2
+
+Writes per Second:
+
+Average: 13,519.64
+Min: 11,817.61
+Max: 14,391.16
+Standard Deviation: 897.52
+Writes Throughput (MiB/s):
+
+Average: 211.24
+Min: 184.65
+Max: 224.86
+Standard Deviation: 14.02
+Total Events:
+
+Average: 308,457.6
+Min: 269,788
+Max: 328,286
+Standard Deviation: 20,401.66
+Total Time (s):
+
+Average: 10.008
+Min: 10.0055
+Max: 10.0145
+Standard Deviation: 0.00334
+Maximum Latency (ms):
+
+Average: 16.4
+Min: 8.56
+Max: 37.35
+Standard Deviation: 10.78

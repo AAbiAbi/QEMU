@@ -1,0 +1,141 @@
+Config 1 - CPU Test 1
+Average Events per Second: 1223.11
+Min: 1172.43
+Max: 1255.94
+Standard Deviation: 32.87
+
+Config 1 - CPU Test 2
+Average Events per Second: 3167.67
+Min: 3071.91
+Max: 3232.99
+Standard Deviation: 58.09
+
+Config 1 - File IO Test 1
+
+Reads/s (reads per second)
+
+Average: 4120.04
+Min: 3452.9
+Max: 4653.11
+Std. Dev.: 486.49
+
+Writes/s (writes per second)
+
+Average: 2746.70
+Min: 2301.94
+Max: 3102.14
+Std. Dev.: 324.35
+
+Fsyncs/s (file synchronizations per second)
+
+Average: 8797.1
+Min: 7366.6
+Max: 9939.0
+Std. Dev.: 1041.58
+
+Read, MiB/s (megabytes read per second)
+
+Average: 64.37
+Min: 53.95
+Max: 72.7
+Std. Dev.: 7.60
+
+Written, MiB/s (megabytes written per second)
+
+Average: 42.92
+Min: 35.97
+Max: 48.47
+Std. Dev.: 5.07
+
+Config 1 - File IO Test 2
+
+Writes/s (writes per second)
+
+Fsyncs/s (file synchronizations per second)
+
+Average: 17484.28
+Min: 17165.94
+Max: 18070.47
+Std. Dev.: 359.30
+
+Written, MiB/s (megabytes written per second)
+
+Average: 213.33
+Min: 209.46
+Max: 220.48
+Std. Dev.: 4.38
+
+Total Time (s):
+
+Average: 10.00525
+Minimum: 10.0035
+Maximum: 10.0062
+Standard Deviation: 0.00105
+
+Total Number of Events:
+
+Average: 311430
+Minimum: 305793
+Maximum: 321896
+Standard Deviation: 6412.64
+
+Config 1 - Memory Test 1
+
+Operations Per Second:
+
+Average: 4685.20 ops/sec
+Minimum: 4157.88 ops/sec
+Maximum: 4966.36 ops/sec
+Standard Deviation: 331.87 ops/sec
+
+Transferred MiB/sec:
+
+Average: 37481.58 MiB/sec
+Minimum: 33263.05 MiB/sec
+Maximum: 39730.84 MiB/sec
+Standard Deviation: 2654.92 MiB/sec
+
+Total Time (sec):
+
+Average: 0.1094 sec
+Minimum: 0.1026 sec
+Maximum: 0.1226 sec
+Standard Deviation: 0.0081 sec
+
+Average Latency (ms):
+
+Average: 0.212 ms
+Minimum: 0.20 ms
+Maximum: 0.24 ms
+Standard Deviation: 0.016 ms
+
+
+Config 1 - Memory Test 2
+
+Operations Per Second:
+
+Average: 9,743.40 ops/sec
+Minimum: 9,595.25 ops/sec
+Maximum: 9,845.51 ops/sec
+Standard Deviation: 100.09 ops/sec
+
+Transferred Rate:
+
+Average: 38,973.62 MiB/sec
+Minimum: 38,381.02 MiB/sec
+Maximum: 39,382.04 MiB/sec
+Standard Deviation: 400.36 MiB/sec
+
+Total Time:
+
+Average: 0.0521 seconds
+Minimum: 0.0515 seconds
+Maximum: 0.0529 seconds
+Standard Deviation: 0.00058 seconds
+
+Average Latency:
+
+Average: 0.10 ms
+Minimum: 0.10 ms
+Maximum: 0.10 ms
+Standard Deviation: 0.00 ms

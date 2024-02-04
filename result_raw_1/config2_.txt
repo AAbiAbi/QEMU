@@ -1,0 +1,90 @@
+QEMU_RAW Config 2 - CPU Test 1
+Average Events per Second: 1251.03
+Min: 1244.65
+Max: 1256.3
+Standard Deviation: 3.85
+
+
+QEMU_RAW Config 2 - CPU Test 2
+Average Events per Second: 3243.78
+Min: 3217.33
+Max: 3279.25
+Standard Deviation: 21.25
+
+QEMU_RAW Config 2 - File IO Test 1
+
+Reads per Second
+Average: 3706.03 reads/s
+Minimum: 3130.07 reads/s
+Maximum: 4034.88 reads/s
+Standard Deviation: 324.78 reads/s
+Writes per Second
+Average: 2470.65 writes/s
+Minimum: 2086.71 writes/s
+Maximum: 2689.85 writes/s
+Standard Deviation: 216.51 writes/s
+Fsyncs per Second
+Average: 7909.68 fsyncs/s
+Minimum: 6682.78 fsyncs/s
+Maximum: 8608.17 fsyncs/s
+Standard Deviation: 691.93 fsyncs/s
+Total Time
+Average: 10.00566 seconds
+Minimum: 10.0055 seconds
+Maximum: 10.006 seconds
+Standard Deviation: 0.00019 seconds
+
+QEMU_RAW Config 2 - File IO Test 2
+
+Writes per Second
+Average: 17,504.78 writes/s
+Min: 16,235.45 writes/s
+Max: 18,107.76 writes/s
+Standard Deviation: 659.21 writes/s
+Fsyncs per Second
+Average: 22,412.03 fsyncs/s
+Min: 20,793.91 fsyncs/s
+Max: 23,187.73 fsyncs/s
+Standard Deviation: 841.27 fsyncs/s
+Throughput (Written, MiB/s)
+Average: 273.51 MiB/s
+Min: 253.68 MiB/s
+Max: 282.93 MiB/s
+Standard Deviation: 10.30 MiB/s
+
+
+QEMU_RAW Config 2 - Memory Test 1
+
+Operations per Second
+Average: 4,816.63 ops/sec
+Min: 4,674.71 ops/sec
+Max: 4,984.29 ops/sec
+Standard Deviation: 119.23 ops/sec
+Throughput (MiB/s)
+Average: 38512.80 MiB/sec
+Min: 37397.66 MiB/sec
+Max: 39874.30 MiB/sec
+Standard Deviation: 942.53 MiB/sec
+Latency (ms)
+Average (avg across tests): 0.21 ms
+Min (lowest avg in a single test): 0.20 ms
+Max (highest avg in a single test): 0.22 ms
+95th Percentile (average across tests): 0.25 ms
+
+QEMU_RAW Config 2 - Memory Test 2
+
+Operations per Second
+Average: 9,228.21 ops/sec
+Min: 8,572.76 ops/sec
+Max: 9,671.86 ops/sec
+Standard Deviation: 424.45 ops/sec
+Throughput (MiB/s)
+Average: 36932.63 MiB/sec
+Min: 34291.04 MiB/sec
+Max: 38687.44 MiB/sec
+Standard Deviation: 1718.42 MiB/sec
+Latency (ms)
+Average (avg across tests): 0.13 ms
+Min (lowest avg in a single test): 0.10 ms
+Max (highest avg in a single test): 0.17 ms
+95th Percentile (average across tests): 0.16 ms

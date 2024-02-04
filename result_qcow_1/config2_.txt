@@ -1,0 +1,116 @@
+Config 2 - CPU Test 1
+Average Events per Second: 1251.03
+Min: 1244.65
+Max: 1256.3
+Standard Deviation: 3.85
+
+Config 2 - CPU Test 2
+Average Events per Second: 3243.78
+Min: 3217.33
+Max: 3279.25
+Standard Deviation: 21.25
+
+Config 2 - File IO Test 1
+
+Reads per Second:
+
+Average: 3956.53
+Min: 3490.44
+Max: 4128.97
+Standard Deviation: 238.61
+Writes per Second:
+
+Average: 2637.68
+Min: 2326.96
+Max: 2752.58
+Standard Deviation: 159.07
+Fsyncs per Second:
+
+Average: 8445.30
+Min: 7458.42
+Max: 8812.08
+Standard Deviation: 505.35
+Read Throughput (MiB/s):
+
+Average: 61.82
+Min: 54.54
+Max: 64.52
+Standard Deviation: 3.73
+Write Throughput (MiB/s):
+
+Average: 41.21
+Min: 36.36
+Max: 43.01
+Standard Deviation: 2.48
+Total Events:
+
+Average: 150370.8
+Min: 132701
+Max: 156935
+Standard Deviation: 9046.55
+Total Time (s):
+
+Average: 10.00624
+Min: 10.0048
+Max: 10.0074
+Standard Deviation: 0.00089
+Max Latency (ms):
+
+Average: 10.03
+Min: 5.54
+Max: 17.63
+Standard Deviation: 4.73
+
+
+Config 2 - File IO Test 2
+
+Writes per second:
+
+Average: 16,355.04
+Min: 15,391.32
+Max: 17,235.89
+Standard Deviation: 708.48
+Fsyncs per second:
+
+Average: 20,941.13
+Min: 19,702.09
+Max: 22,072.05
+Standard Deviation: 907.94
+Throughput (written, MiB/s):
+
+Average: 255.55
+Min: 240.49
+Max: 269.31
+Standard Deviation: 11.07
+
+Config 2 - Memory Test 1
+
+Operations per second:
+
+Average: 4816.63
+Minimum: 4674.71
+Maximum: 4984.29
+Standard Deviation: 110.27
+
+Throughput (MiB/s):
+
+Average: 38533.00 MiB/sec
+Minimum: 37397.66 MiB/sec
+Maximum: 39874.30 MiB/sec
+Standard Deviation: 882.20 MiB/sec
+
+
+Config 2 - Memory Test 2
+
+Total Time (seconds)
+
+Average: 0.0552
+Minimum: 0.0525
+Maximum: 0.0593
+Standard Deviation: 0.0029
+Operations per Second
+
+Average: 9228.21
+Minimum: 8572.76
+Maximum: 9671.86
+Standard Deviation: 484.21

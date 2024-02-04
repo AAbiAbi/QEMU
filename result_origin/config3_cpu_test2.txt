@@ -12,20 +12,20 @@ Initializing worker threads...
 Threads started!
 
 CPU speed:
-    events per second:  3159.69
+    events per second:  3155.42
 
 General statistics:
-    total time:                          10.0005s
-    total number of events:              31600
+    total time:                          30.0034s
+    total number of events:              94678
 
 Latency (ms):
-         min:                                    0.29
+         min:                                    0.30
          avg:                                    0.32
-         max:                                    8.72
-         95th percentile:                        0.34
-         sum:                                 9984.12
+         max:                                   10.27
+         95th percentile:                        0.35
+         sum:                                29977.60
 
 Threads fairness:
-    events (avg/stddev):           31600.0000/0.00
-    execution time (avg/stddev):   9.9841/0.00
+    events (avg/stddev):           94678.0000/0.00
+    execution time (avg/stddev):   29.9776/0.00
 

@@ -1,0 +1,189 @@
+Config 3 - CPU Test 1
+Average Events per Second: 1236.90
+Min: 1218.69
+Max: 1250.26
+Standard Deviation: 11.01
+
+Config 3 - CPU Test 2
+Average Events per Second: 3236.29
+Min: 3211.17
+Max: 3250.0
+Standard Deviation: 15.58
+
+Config 3 - File IO Test 1
+Reads per Second:
+
+Average: 5137.43
+Min: 3845.35
+Max: 5924.19
+Std Dev: 714.97
+Writes per Second:
+
+Average: 3424.96
+Min: 2563.56
+Max: 3949.46
+Std Dev: 476.64
+Fsyncs per Second:
+
+Average: 10963.85
+Min: 8213.64
+Max: 12639.77
+Std Dev: 1522.31
+Throughput Read (MiB/s):
+
+Average: 80.27
+Min: 60.08
+Max: 92.57
+Std Dev: 11.17
+Throughput Written (MiB/s):
+
+Average: 53.52
+Min: 40.06
+Max: 61.71
+Std Dev: 7.45
+Total Time (s):
+
+Average: 10.0055
+Min: 10.0043
+Max: 10.0072
+Std Dev: 0.00102
+Total Events:
+
+Average: 195258.8
+Min: 146168
+Max: 225151
+Std Dev: 27165.56
+
+Config 3 - File IO Test 2
+Writes per Second:
+
+Average: 15699.48
+Min: 14841.09
+Max: 16717.94
+Std Dev: 690.64
+Fsyncs per Second:
+
+Average: 20074.67
+Min: 18896.94
+Max: 21399.09
+Std Dev: 926.73
+Throughput Written (MiB/s):
+
+Average: 245.16
+Min: 231.89
+Max: 261.22
+Std Dev: 10.86
+General Statistics (Total Time):
+
+Average: 10.00525s
+Min: 10.0033s
+Max: 10.0073s
+Std Dev: 0.00148
+General Statistics (Total Number of Events):
+
+Average: 359649.8
+Min: 336623
+Max: 381315
+Std Dev: 16649.48
+
+Config 3 - Memory Test 1
+
+Total Operations:
+Average: 512 (constant, as expected since the total number of operations was fixed across all tests)
+Min/Max: 512 (constant)
+Std. Dev: 0 (no variation)
+Operations per Second:
+Average: 4695.06 ops/sec
+Min: 4363.06 ops/sec
+Max: 4993.13 ops/sec
+Std. Dev: 257.08 ops/sec
+Throughput (MiB/sec):
+Average: 37560.46 MiB/sec
+Min: 34904.47 MiB/sec
+Max: 39945.00 MiB/sec
+Std. Dev: 2065.84 MiB/sec
+Total Time (s):
+Average: 0.10886s
+Min: 0.1020s
+Max: 0.1167s
+Std. Dev: 0.0055s
+Latency (ms) - Average:
+Average: 0.21ms
+Min: 0.20ms
+Max: 0.22ms
+Std. Dev: 0.01ms
+Latency (ms) - Max:
+Average: 0.504ms
+Min: 0.27ms
+Max: 0.94ms
+Std. Dev: 0.27ms
+Latency (ms) - 95th Percentile:
+Average: 0.238ms
+Min: 0.21ms
+Max: 0.26ms
+Std. Dev: 0.02ms
+Sum of Latencies (ms):
+Average: 108.092ms
+Min: 101.59ms
+Max: 114.79ms
+Std. Dev: 4.92ms
+Threads Fairness - Events:
+Average: 512.0000 (constant)
+Min/Max: 512.0000 (constant)
+Std. Dev: 0 (no variation)
+Threads Fairness - Execution Time (avg/stddev):
+Average: 0.1081s
+Min: 0.1016s
+Max: 0.1148s
+Std. Dev: 0.0046s
+
+Config 3 - Memory Test 2
+
+Total Operations:
+Average: 512 (constant, as expected since the total number of operations was fixed across all tests)
+Min/Max: 512 (constant)
+Std. Dev: 0 (no variation)
+Operations per Second:
+Average: 9782.36 ops/sec
+Min: 9609.75 ops/sec
+Max: 9873.82 ops/sec
+Std. Dev: 98.61 ops/sec
+Throughput (MiB/sec):
+Average: 39116.64 MiB/sec
+Min: 38439.01 MiB/sec
+Max: 39495.30 MiB/sec
+Std. Dev: 394.77 MiB/sec
+Total Time (s):
+Average: 0.05194s
+Min: 0.0514s
+Max: 0.0528s
+Std. Dev: 0.00055s
+Latency (ms) - Average:
+Average: 0.10ms
+Min: 0.10ms
+Max: 0.10ms
+Std. Dev: 0.00ms
+Latency (ms) - Max:
+Average: 0.142ms
+Min: 0.13ms
+Max: 0.17ms
+Std. Dev: 0.012ms
+Latency (ms) - 95th Percentile:
+Average: 0.11ms
+Min: 0.11ms
+Max: 0.11ms
+Std. Dev: 0.00ms
+Sum of Latencies (ms):
+Average: 51.652ms
+Min: 51.17ms
+Max: 52.55ms
+Std. Dev: 0.502ms
+Threads Fairness - Events:
+Average: 512.0000 (constant)
+Min/Max: 512.0000 (constant)
+Std. Dev: 0 (no variation)
+Threads Fairness - Execution Time (avg/stddev):
+Average: 0.0516s
+Min: 0.0512s
+Max: 0.0526s
+Std. Dev: 0.00048s

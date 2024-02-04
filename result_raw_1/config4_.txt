@@ -1,0 +1,27 @@
+QEMU_RAW Config 4 - CPU Test 1
+
+Average Events Per Second: 1244.60
+Minimum Latency (ms): 0.74
+Average Latency (ms): 0.80
+Maximum Latency (ms): 14.60
+95th Percentile Latency (ms): 0.89
+Total Time (s): 30.0011
+
+
+QEMU_RAW Config 4 - CPU Test 2
+
+Average Events Per Second: 3198.67
+Minimum Latency (ms): 0.29
+Average Latency (ms): 0.31
+Maximum Latency (ms): 49.30
+95th Percentile Latency (ms): 0.35
+Total Time (s): 30.0011
+
+
+QEMU_RAW Config 4 - File IO Test 1
+
+QEMU_RAW Config 4 - File IO Test 2
+
+QEMU_RAW Config 4 - Memory Test 1
+
+QEMU_RAW Config 4 - Memory Test 2
