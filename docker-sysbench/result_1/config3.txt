@@ -1,0 +1,155 @@
+DOCKER Config3 CPU Test 1
+
+Events per Second (CPU Speed)
+Average: 1234.56 events/sec
+Minimum: 1206.51 events/sec
+Maximum: 1250.47 events/sec
+Standard Deviation: 15.21 events/sec
+Latency Average (ms)
+Average: 0.808 ms
+Minimum: 0.8 ms
+Maximum: 0.83 ms
+Standard Deviation: 0.0117 ms
+Latency Maximum (ms)
+Average: 17.08 ms
+Minimum: 9.93 ms
+Maximum: 30.5 ms
+Standard Deviation: 7.44 ms
+Latency 95th Percentile (ms)
+Average: 0.856 ms
+Minimum: 0.84 ms
+Maximum: 0.87 ms
+Standard Deviation: 0.0136 ms
+
+DOCKER Config3 CPU Test 2
+
+Events per Second (CPU Speed)
+Average: 3185.49 events/sec
+Minimum: 3114.71 events/sec
+Maximum: 3236.73 events/sec
+Standard Deviation: 53.52 events/sec
+Latency Average (ms)
+Average: 0.314 ms
+Minimum: 0.31 ms
+Maximum: 0.32 ms
+Standard Deviation: 0.0049 ms
+Latency Maximum (ms)
+Average: 16.49 ms
+Minimum: 11.58 ms
+Maximum: 30.28 ms
+Standard Deviation: 6.98 ms
+Latency 95th Percentile (ms)
+Average: 0.346 ms
+Minimum: 0.33 ms
+Maximum: 0.37 ms
+Standard Deviation: 0.0136 ms
+
+
+DOCKER Config3 File IO Test 
+
+Read Throughput (MiB/s)
+Average: 104.91 MiB/s
+Minimum: 97.54 MiB/s
+Maximum: 111.04 MiB/s
+Standard Deviation: 4.74 MiB/s
+Write Throughput (MiB/s)
+Average: 69.94 MiB/s
+Minimum: 65.03 MiB/s
+Maximum: 74.03 MiB/s
+Standard Deviation: 3.16 MiB/s
+Reads/s
+Average: 6714.52 operations/s
+Minimum: 6242.63 operations/s
+Maximum: 7106.6 operations/s
+Standard Deviation: 303.09 operations/s
+Writes/s
+Average: 4476.36 operations/s
+Minimum: 4161.75 operations/s
+Maximum: 4737.73 operations/s
+Standard Deviation: 202.05 operations/s
+Fsyncs/s
+Average: 14332.73 operations/s
+Minimum: 13327.6 operations/s
+Maximum: 15172.54 operations/s
+Standard Deviation: 647.34 operations/s
+Latency Average (ms)
+Average: 0.04 ms
+Minimum: 0.04 ms
+Maximum: 0.04 ms
+Standard Deviation: 0.0 ms (negligible variation)
+Latency Maximum (ms)
+Average: 46.44 ms
+Minimum: 38.34 ms
+Maximum: 53.54 ms
+Standard Deviation: 5.30 ms
+
+DOCKER Config3 File IO Test 2
+
+File Creation Time for 1GB of Data (seconds)
+Average Creation Time: 3.67 seconds
+Minimum Creation Time: 2.67 seconds (Fastest)
+Maximum Creation Time: 5.52 seconds (Slowest)
+Standard Deviation: 1.08 seconds
+Sequential Rewrite Performance
+Writes/s
+Average: 14919.29 writes/s
+Minimum: 13097.12 writes/s
+Maximum: 15556.55 writes/s
+Standard Deviation: 961.54 writes/s
+Fsyncs/s
+Average: 19105.35 fsyncs/s
+Minimum: 16767.90 fsyncs/s
+Maximum: 19917.78 fsyncs/s
+Standard Deviation: 1235.24 fsyncs/s
+Written Throughput (MiB/s)
+Average: 233.15 MiB/s
+Minimum: 204.64 MiB/s
+Maximum: 243.07 MiB/s
+Standard Deviation: 15.22 MiB/s
+Latency (ms)
+Average Latency: 0.03 ms (Across all runs)
+Maximum Latency Range: 13.94 ms - 43.08 ms
+95th Percentile Latency: 0.03 ms (Consistent across runs)
+
+DOCKER Config3 Memory Test 1
+
+Operations per second:
+
+Average: 4595.64 ops/s
+Min: 4295.98 ops/s
+Max: 4770.41 ops/s
+Standard Deviation: 181.22 ops/s
+Transfer rate:
+
+Average: 36765.08 MiB/sec
+Min: 34367.87 MiB/sec
+Max: 38163.25 MiB/sec
+Standard Deviation: 1449.72 MiB/sec
+Average Latency:
+
+Average: 0.216 ms
+Min: 0.21 ms
+Max: 0.23 ms
+Standard Deviation: 0.00894 ms
+
+
+DOCKER Config3 Memory Test 2
+
+Operations per second:
+
+Average: 9109.49 ops/s
+Min: 8601.27 ops/s
+Max: 9288.36 ops/s
+Standard Deviation: 253.09 ops/s
+Transfer rate:
+
+Average: 36437.97 MiB/sec
+Min: 34405.09 MiB/sec
+Max: 37153.44 MiB/sec
+Standard Deviation: 1055.14 MiB/sec
+Average Latency:
+
+Average: 0.11 ms
+Min: 0.11 ms
+Max: 0.11 ms
+Standard Deviation: 0.0008 ms

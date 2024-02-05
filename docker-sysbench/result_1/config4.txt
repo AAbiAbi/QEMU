@@ -1,0 +1,130 @@
+DOCKER Config4 CPU Test 1
+
+Events per second:
+
+Average: 1245.89 events/s
+Min: 1234.12 events/s
+Max: 1254.73 events/s
+Standard Deviation: 7.59 events/s
+Total number of events:
+
+Average: 37380.4 events
+Min: 37027 events
+Max: 37646 events
+Standard Deviation: 222.49 events
+Average Latency (ms):
+
+Average: 0.802 ms
+Min: 0.75 ms
+Max: 0.81 ms
+Standard Deviation: 0.019 ms
+95th Percentile Latency (ms):
+
+Consistently around 0.86 ms across runs, with a slight variation in one run showing 0.83 ms
+
+
+
+DOCKER Config4 CPU Test 2
+
+Events per second:
+
+Average: 3241.57 events/s
+Min: 3228.08 events/s
+Max: 3255.28 events/s
+Standard Deviation: 10.49 events/s
+Total number of events:
+
+Average: 97258.4 events
+Min: 96853 events
+Max: 97673 events
+Standard Deviation: 311.62 events
+Average Latency (ms):
+
+Average: 0.31 ms
+Min: 0.29 ms
+Max: 0.31 ms
+Standard Deviation: 0.007 ms
+95th Percentile Latency (ms):
+
+Average: 0.334 ms
+Min: 0.33 ms
+Max: 0.34 ms
+Standard Deviation: 0.004 ms
+
+
+DOCKER Config4 File IO Test 1
+
+Reads/s
+Average: 4126.01 reads/s
+Standard Deviation: 127.84 reads/s
+Writes/s
+Average: 2750.66 writes/s
+Standard Deviation: 85.21 writes/s
+Fsyncs/s
+Average: 8805.74 fsyncs/s
+Standard Deviation: 271.56 fsyncs/s
+Throughput (MiB/s)
+Read Throughput
+Average: 64.47 MiB/s
+Standard Deviation: 1.99 MiB/s
+Write Throughput
+Average: 42.98 MiB/s
+Standard Deviation: 1.33 MiB/s
+Latency (ms)
+Average Latency: 0.064 ms (Across all runs)
+Maximum Latency Range: From 20.47 ms to 58.89 ms
+95th Percentile Latency: 0.174 ms (Consistent across runs)
+
+
+DOCKER Config4 File IO Test 2
+
+Writes/s
+Average: 13,261.60 writes/s
+Minimum: 10,110.74 writes/s
+Maximum: 14,453.82 writes/s
+Standard Deviation: 1,614.07 writes/s
+Fsyncs/s
+Average: 16,980.56 fsyncs/s
+Minimum: 12,948.9 fsyncs/s
+Maximum: 18,510.36 fsyncs/s
+Standard Deviation: 2,065.40 fsyncs/s
+Written Throughput (MiB/s)
+Average: 207.21 MiB/s
+Minimum: 157.98 MiB/s
+Maximum: 225.84 MiB/s
+Standard Deviation: 25.22 MiB/s
+Latency (ms)
+Average Latency: 0.032 ms (Across all runs)
+Maximum Latency Range: 375.81 ms (Difference between the smallest and largest max latencies)
+95th Percentile Latency: 0.038 ms (Consistent across runs)
+
+
+DOCKER Config4 Memory Test 1
+
+Operations Per Second:
+
+Average: 4617.35 ops/s
+Minimum: 3633.27 ops/s (Slowest)
+Maximum: 4954.39 ops/s (Fastest)
+Standard Deviation: 496.76 ops/s
+Transfer Rate:
+
+Average: 36938.81 MiB/s
+Minimum: 29066.14 MiB/s (Slowest)
+Maximum: 39635.08 MiB/s (Fastest)
+Standard Deviation: 3974.11 MiB/s
+
+DOCKER Config4 Memory Test 2
+
+Operations Per Second:
+
+Average: 9406.07 ops/s
+Minimum: 9066.51 ops/s (Slowest)
+Maximum: 9790.06 ops/s (Fastest)
+Standard Deviation: 271.98 ops/s
+Transfer Rate:
+
+Average: 37623.50 MiB/s
+Minimum: 36266.05 MiB/s (Slowest)
+Maximum: 39160.26 MiB/s (Fastest)
+Standard Deviation: 1129.76 MiB/s

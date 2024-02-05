@@ -1,0 +1,144 @@
+
+DOCKER Config1 CPU Test 1
+
+Events per Second
+Average: 1244.588 events/s
+Min: 1241.59 events/s
+Max: 1248.92 events/s
+Standard Deviation: 2.588 events/s
+Total Time (s)
+Average: 30.0014 s (constant across all runs)
+Minimum Latency (ms)
+Average: 0.756 ms
+Min: 0.75 ms
+Max: 0.77 ms
+Standard Deviation:0.008 ms
+Average Latency (ms)
+Average: 0.80 ms (constant across all runs)
+Maximum Latency (ms)
+Average: 11.126 ms
+Min: 3.08 ms
+Max: 14.49 ms
+Standard Deviation:  4.119 ms
+95th Percentile Latency (ms)
+Average: 0.85 ms
+Min: 0.84 ms
+Max: 0.87 ms
+Standard Deviation:  0.013 ms
+
+
+DOCKER Config1 CPU Test 2
+
+Events Per Second:
+
+Average: 3239.76
+Minimum: 3220.82
+Maximum: 3252.59
+Standard Deviation: 11.58
+Latency Statistics (in milliseconds):
+
+Minimum Latency:
+
+Average: 0.29 ms
+Minimum: 0.29 ms
+Maximum: 0.29 ms
+Standard Deviation: 0.0 ms
+Average Latency:
+
+Average: 0.31 ms
+Minimum: 0.31 ms
+Maximum: 0.31 ms
+Standard Deviation: 0.0 ms
+Maximum Latency:
+
+Average: 14.10 ms
+Minimum: 2.80 ms
+Maximum: 30.57 ms
+Standard Deviation: 10.49 ms
+95th Percentile Latency:
+
+Average: 0.336 ms
+Minimum: 0.33 ms
+Maximum: 0.34 ms
+Standard Deviation: 0.005 ms ​
+
+DOCKER Config1 File IO Test 1
+
+File Creation Throughput (MiB/sec):
+Average: 274.32
+Minimum: 257.71
+Maximum: 289.21
+Standard Deviation: 12.71
+Read Throughput (MiB/s):
+Average: 97.07
+Minimum: 90.61
+Maximum: 103.45
+Standard Deviation: 5.40
+Write Throughput (MiB/s):
+Average: 64.72
+Minimum: 60.41
+Maximum: 68.97
+Standard Deviation: 3.60
+Latency (95th percentile, ms):
+Average: 0.11
+Minimum: 0.11
+Maximum: 0.11
+Standard Deviation: 0.00
+
+
+DOCKER Config1 File IO Test 2
+
+Average Throughput: 259.22 MiB/sec
+
+Minimum Throughput: 227.86 MiB/sec
+
+Maximum Throughput: 342.08 MiB/sec
+
+Standard Deviation: 0.00
+
+DOCKER Config1 Memory Test 1
+
+vents Per Second:
+
+Average: 4803.918 ops/sec
+Min: 4550.13 ops/sec (Run 5)
+Max: 4920.52 ops/sec (Run 1)
+Standard Deviation: 139.915 ops/sec
+General Statistics:
+
+Total Time: Each test ran for approximately 0.10594 seconds.
+Total Number of Events:
+Average: 512 events
+Min: 512 events (All runs had the same number of events)
+Max: 512 events (All runs had the same number of events)
+Standard Deviation: 0 events (All runs had the same number of events)
+Latency (ms):
+
+Average (avg across tests): 0.206 ms
+Min (lowest avg in a single test): 0.20 ms (Run 1, Run 2, Run 3, Run 4)
+Max (highest avg in a single test): 0.22 ms (Run 1, Run 3)
+95th Percentile (average across tests): 0.214 ms
+
+
+DOCKER Config1 Memory Test 2
+
+Events Per Second (Average across Runs 1-5):
+
+Average: 9358.16 ops/sec
+Min: 8992.59 ops/sec (Run 1)
+Max: 9722.47 ops/sec (Run 4)
+Standard Deviation: 331.24 ops/sec
+General Statistics (Average across Runs 1-5):
+
+Total Time: Each test ran for approximately 0.05488 seconds.
+Total Number of Events:
+Average: 512 events (All runs had the same number of events)
+Min: 512 events (All runs had the same number of events)
+Max: 512 events (All runs had the same number of events)
+Standard Deviation: 0 events (All runs had the same number of events)
+Latency (ms) (Average across Runs 1-5):
+
+Average: 0.104 ms
+Min: 0.10 ms (Run 1, Run 2, Run 3, Run 4, Run 5)
+Max: 0.16 ms (Run 5)
+95th Percentile: 0.12 ms

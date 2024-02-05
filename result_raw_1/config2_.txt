@@ -1,56 +1,131 @@
 QEMU_RAW Config 2 - CPU Test 1
-Average Events per Second: 1251.03
-Min: 1244.65
-Max: 1256.3
-Standard Deviation: 3.85
+
+Events per Second
+
+Average: 1243.27 events/sec
+Minimum: 1226.02 events/sec
+Maximum: 1259.62 events/sec
+Standard Deviation: 13.64 ops/sec
+
+Total Number of Events
+
+Average: 37303.6
+Minimum: 36787
+Maximum: 37794
+Standard Deviation: 393.5
+
+Total Time (seconds)
+
+Average: 30.00104 seconds
+Minimum: 30.0009 seconds
+Maximum: 30.0013 seconds
+Standard Deviation: 0.00015 seconds
+Latency (ms)
+
+Minimum Latency: Consistently 0.75 ms (no variation)
+Average Latency: Average of 0.804 ms, with a range from 0.79 ms to 0.81 ms, and a standard deviation of 0.008 ms
+Maximum Latency: Average of 11.37 ms, ranging from 4.98 ms to 19.42 ms, with a standard deviation of 5.29 ms
+95th Percentile Latency: Average of 0.874 ms, ranging from 0.84 ms to 0.89 ms, with a standard deviation of 0.0206 ms
+Total Latency: Average of 29970.81 ms, with a range from 29960.93 ms to 29976.19 ms, and a standard deviation of 5.71 ms
 
 
 QEMU_RAW Config 2 - CPU Test 2
-Average Events per Second: 3243.78
-Min: 3217.33
-Max: 3279.25
-Standard Deviation: 21.25
+
+Events Per Second (ops)
+Average: 3231.84 ops/sec
+Minimum: 3196.33 ops/sec
+Maximum: 3249.14 ops/sec
+Standard Deviation: 21.78 ops/sec
+Total Number of Events
+Average: 96971.8 events
+Minimum: 95899 events
+Maximum: 97482 events
+Standard Deviation: 639.87 events
+Total Time (seconds)
+The total time for each test was consistently around 30.00 seconds, showing uniform test durations.
+Latency (ms)
+Minimum
+Average: 0.29 ms
+Range: 0.29 ms (consistent across tests)
+Average
+Average: 0.31 ms
+Range: 0.31 ms (consistent across tests)
+Maximum
+Average: 10.67 ms
+Range: 4.30 ms to 12.41 ms
+95th Percentile
+Average: 0.338 ms
+Range: 0.33 ms to 0.34 ms
+Execution Time (seconds)
+Average: 29.9526 seconds
+Minimum: 29.9377 seconds
+Maximum: 29.9640 seconds
+Standard Deviation: 0.0105 seconds
+
 
 QEMU_RAW Config 2 - File IO Test 1
 
-Reads per Second
-Average: 3706.03 reads/s
-Minimum: 3130.07 reads/s
-Maximum: 4034.88 reads/s
-Standard Deviation: 324.78 reads/s
-Writes per Second
-Average: 2470.65 writes/s
-Minimum: 2086.71 writes/s
-Maximum: 2689.85 writes/s
-Standard Deviation: 216.51 writes/s
-Fsyncs per Second
-Average: 7909.68 fsyncs/s
-Minimum: 6682.78 fsyncs/s
-Maximum: 8608.17 fsyncs/s
-Standard Deviation: 691.93 fsyncs/s
-Total Time
-Average: 10.00566 seconds
-Minimum: 10.0055 seconds
-Maximum: 10.006 seconds
-Standard Deviation: 0.00019 seconds
+Read Throughput:
+Average: 59.91 MiB/s
+Minimum: 48.91 MiB/s
+Maximum: 63.04 MiB/s
+Standard Deviation: 5.63 MiB/s
+Write Throughput:
+Average: 39.60 MiB/s
+Minimum: 32.60 MiB/s
+Maximum: 42.03 MiB/s
+Standard Deviation: 3.77 MiB/s
+File Operations Per Second
+Reads/s:
+Average: 3707.44 ops
+Minimum: 3130.07 ops
+Maximum: 4034.88 ops
+Standard Deviation: 364.27 ops
+Writes/s:
+Average: 2471.65 ops
+Minimum: 2086.71 ops
+Maximum: 2689.85 ops
+Standard Deviation: 241.29 ops
+Fsyncs/s:
+Average: 7709.72 ops
+Minimum: 6682.78 ops
+Maximum: 8608.17 ops
+Standard Deviation: 774.19 ops
+Latency (ms)
+Minimum Latency: Consistently 0.00 ms across all operations, indicating that the minimum response time for starting any operation was negligible.
+Average Latency:
+Range: 0.06 ms to 0.08 ms
+Average across tests: 0.07 ms, showcasing very low response times for I/O operations.
+Maximum Latency:
+Range: 6.77 ms to 21.42 ms
+This wider range indicates variability in response times under peak loads or during complex I/O operations.
+95th Percentile Latency:
+Range: 0.18 ms to 0.24 ms
+Reflects a consistent performance under most conditions, with only a few operations exceeding this latency threshold.
+General Statistics
+Total Number of Events:
+Average: 142827.2 events
+Minimum: 118941 events
+Maximum: 153312 events
+Standard Deviation: 13717.65 events
 
 QEMU_RAW Config 2 - File IO Test 2
 
-Writes per Second
-Average: 17,504.78 writes/s
-Min: 16,235.45 writes/s
-Max: 18,107.76 writes/s
-Standard Deviation: 659.21 writes/s
-Fsyncs per Second
-Average: 22,412.03 fsyncs/s
-Min: 20,793.91 fsyncs/s
-Max: 23,187.73 fsyncs/s
-Standard Deviation: 841.27 fsyncs/s
-Throughput (Written, MiB/s)
-Average: 273.51 MiB/s
-Min: 253.68 MiB/s
-Max: 282.93 MiB/s
-Standard Deviation: 10.30 MiB/s
+Average Throughput: Approximately 276.66 MiB/s
+This is calculated as an average across the tests showing how much data was written per second.
+File Operations Per Second (ops)
+Writes/s:
+The tests reported an average of approximately 17884.79 writes per second.
+Fsyncs/s:
+The average number of fsync() operations per second across the tests is approximately 22836.03.
+Latency (ms)
+Minimum Latency: 0.00 ms in all tests, indicating no delay in the initiation of write operations.
+Average Latency: Approximately 0.02 ms, showing very efficient handling of write operations.
+Maximum Latency: Varied up to a maximum of 270.27 ms, indicating occasional delays possibly due to disk synchronization or fsync() operations.
+95th Percentile Latency: Approximately 0.03 ms, suggesting that 95% of the write operations were completed with very low latency.
+General Statistics
+Total Number of Events: The tests managed to perform a significant number of write and fsync operations, with an average total number of events around 399876.6.
+Total Time: Each test ran for approximately 10 seconds, ensuring a consistent time frame for comparison.
 
 
 QEMU_RAW Config 2 - Memory Test 1
@@ -77,14 +152,15 @@ Operations per Second
 Average: 9,228.21 ops/sec
 Min: 8,572.76 ops/sec
 Max: 9,671.86 ops/sec
-Standard Deviation: 424.45 ops/sec
+Standard Deviation: 541.37 ops/sec
 Throughput (MiB/s)
 Average: 36932.63 MiB/sec
 Min: 34291.04 MiB/sec
 Max: 38687.44 MiB/sec
-Standard Deviation: 1718.42 MiB/sec
+Standard Deviation: 2,165.46 MiB/sec
 Latency (ms)
 Average (avg across tests): 0.13 ms
 Min (lowest avg in a single test): 0.10 ms
 Max (highest avg in a single test): 0.17 ms
 95th Percentile (average across tests): 0.16 ms
+

@@ -1,40 +1,102 @@
 QEMU_RAW Config 1 - CPU Test 1
-Average Events per Second: 1223.11
-Min: 1172.43
-Max: 1255.94
-Standard Deviation: 32.87
+
+Events per Second:
+
+Average: 1241.06
+Min: 1229.16
+Max: 1259.67
+Standard Deviation: 11.21
+Total Time (seconds):
+
+Average: 30.00136
+Min: 30.001
+Max: 30.0016
+Standard Deviation: 0.00021
+Total Number of Events:
+
+Average: 37241
+Min: 36888
+Max: 37794
+Standard Deviation: 332.20
+Latency (ms):
+
+Min Latency:
+Average: 0.75
+Min: 0.75
+Max: 0.75
+Standard Deviation: 0.0
+Average Latency:
+Average: 0.804
+Min: 0.79
+Max: 0.81
+Standard Deviation: 0.008
+Max Latency:
+Average: 11.416
+Min: 4.07
+Max: 25.13
+Standard Deviation: 7.60
+95th Percentile Latency:
+Average: 0.866
+Min: 0.84
+Max: 0.89
+Standard Deviation: 0.016
+Sum of Latencies (ms):
+
+Average: 29957.452
+Min: 29935.82
+Max: 29971.23
+Standard Deviation: 13.38
+
 
 
 QEMU_RAW Config 1 - CPU Test 2
-Average Events per Second: 3167.67
-Min: 3071.91
-Max: 3232.99
-Standard Deviation: 58.09
 
-QEMU_RAW Config 1 - Memory Test 1
+Events per Second:
 
-Operations per Second:
-Average: 4,685.20
-Min: 4,157.88
-Max: 4,966.36
-Standard Deviation: 321.75
-Throughput (MiB/sec):
-Average: 374.81
-Min: 332.63
-Max: 397.30
-Standard Deviation: 25.76
-Total Events:
-Consistent: 512 (across all runs)
-Total Time (s):
-Average: 0.1122
-Min: 0.1053
-Max: 0.1195
-Standard Deviation: 0.0047
-Maximum Latency (ms):
-Average: 0.458
-Min: 0.34
-Max: 0.64
-Standard Deviation: 0.120
+Average: 3253.844
+Min: 3232.96
+Max: 3268.97
+Standard Deviation: 14.53
+Total Time (seconds):
+
+Average: 30.00126
+Min: 30.0009
+Max: 30.0025
+Standard Deviation: 0.00058
+Total Number of Events:
+
+Average: 97635
+Min: 97022
+Max: 98098
+Standard Deviation: 386.22
+Latency (ms):
+
+Min Latency:
+Average: 0.29
+Min: 0.29
+Max: 0.29
+Standard Deviation: 0.0
+Average Latency:
+Average: 0.31
+Min: 0.31
+Max: 0.31
+Standard Deviation: 0.0
+Max Latency:
+Average: 3.294
+Min: 1.94
+Max: 5.69
+Standard Deviation: 1.47
+95th Percentile Latency:
+Average: 0.332
+Min: 0.32
+Max: 0.34
+Standard Deviation: 0.008
+Sum of Latencies (ms):
+
+Average: 29958.15
+Min: 29952.00
+Max: 29965.18
+Standard Deviation: 5.57
 
 
 
@@ -65,34 +127,74 @@ Standard Deviation: 0.27
 
 QEMU_RAW Config 1 - File IO Test 1
 
-Throughput (MiB/s):
-Read Throughput:
-Average: 46.08 MiB/s
-Min: 38.31 MiB/s
-Max: 49.80 MiB/s
-Standard Deviation: 4.34 MiB/s
-Write Throughput:
-Average: 30.72 MiB/s
-Min: 25.54 MiB/s
-Max: 33.20 MiB/s
-Standard Deviation: 2.89 MiB/s
-Latency (ms):
+File Operations (reads/s, writes/s, fsyncs/s):
+
+Reads/s:
+Average: 3150.558
+Min: 3093.69
+Max: 3187.16
+Standard Deviation: 38.228
+Writes/s:
+Average: 2106.978
+Min: 2062.46
+Max: 2124.7
+Standard Deviation: 25.003
+Fsyncs/s:
+Average: 6672.802
+Min: 6604.48
+Max: 6803.53
+Standard Deviation: 79.555
+Throughput (read MiB/s, written MiB/s):
+
+Read, MiB/s:
+Average: 49.198
+Min: 48.34
+Max: 49.8
+Standard Deviation: 0.586
+Written, MiB/s:
+Average: 32.946
+Min: 32.23
+Max: 33.2
+Standard Deviation: 0.389
+General Statistics (total time, total number of events):
+
+Total Time (seconds):
+Average: 10.00864
+Min: 10.0068
+Max: 10.0107
+Standard Deviation: 0.00157
+Total Number of Events:
+Average: 116881.8
+Min: 117566
+Max: 121134
+Standard Deviation: 2139.963
+Latency (ms) (min, avg, max, 95th percentile, sum):
+
+Min Latency:
+Average: 0.0
+Min: 0.0
+Max: 0.0
+Standard Deviation: 0.0
 Average Latency:
-Average: 0.088 ms
-Min: 0.08 ms
-Max: 0.11 ms
-Standard Deviation: 0.012 ms
-Maximum Latency:
-Average: 37.77 ms
-Min: 7.09 ms
-Max: 125.68 ms
-Standard Deviation: 44.50 ms
-General Statistics:
-Total Time (s):
-Average: 10.009 s
-Min: 10.007 s
-Max: 10.011 s
-Standard Deviation: 0.0013 s
+Average: 0.086
+Min: 0.08
+Max: 0.11
+Standard Deviation: 0.011
+Max Latency:
+Average: 35.78
+Min: 7.09
+Max: 125.68
+Standard Deviation: 47.145
+95th Percentile Latency:
+Average: 0.2
+Min: 0.18
+Max: 0.24
+Standard Deviation: 0.024
+Sum of Latencies:
+Average: 9959.318
+Min: 9944.4
+Max: 9964.55
+Standard Deviation: 7.674
 
 
 QEMU_RAW Config 1 - File IO Test 2
@@ -127,3 +229,60 @@ Average: 16.4
 Min: 8.56
 Max: 37.35
 Standard Deviation: 10.78
+
+QEMU_RAW Config 1 - Memory Test 1
+
+Operations per Second (ops/sec)
+
+Average: 4685.20 ops/sec
+Minimum: 4157.88 ops/sec
+Maximum: 4966.36 ops/sec
+Standard Deviation: 331.87 ops/sec
+Transfer Rate (MiB/sec)
+
+Average: 37481.58 MiB/sec
+Minimum: 33263.05 MiB/sec
+Maximum: 39730.84 MiB/sec
+Standard Deviation: 2654.92 MiB/sec
+Total Time (seconds)
+
+Average: 0.1122 seconds
+Minimum: 0.1053 seconds
+Maximum: 0.1195 seconds
+Standard Deviation: 0.0045 seconds
+Latency (ms)
+
+Minimum Latency: Always 0.20 ms (no variation)
+Average Latency: Average of 0.212 ms, ranging from 0.20 ms to 0.22 ms, with a standard deviation of 0.0075 ms
+Maximum Latency: Average of 0.458 ms, with a range from 0.34 ms to 0.64 ms, and a standard deviation of 0.1170 ms
+95th Percentile Latency: Average of 0.27 ms, ranging from 0.23 ms to 0.32 ms, with a standard deviation of 0.0290 ms
+Total Latency: Average of 109.66 ms, ranging from 104.45 ms to 114.51 ms, with a standard deviation of 3.29 ms
+
+QEMU_RAW Config 1 - Memory Test 2
+
+
+Operations per Second (ops/sec)
+
+Average: 9743.40 ops/sec
+Minimum: 9595.25 ops/sec
+Maximum: 9845.51 ops/sec
+Standard Deviation: 89.52 ops/sec
+Transfer Rate (MiB/sec)
+
+Average: 38973.62 MiB/sec
+Minimum: 38381.02 MiB/sec
+Maximum: 39382.04 MiB/sec
+Standard Deviation: 358.09 MiB/sec
+Total Time (seconds)
+
+Average: 0.0642 seconds
+Minimum: 0.0592 seconds
+Maximum: 0.0696 seconds
+Standard Deviation: 0.0043 seconds
+Latency (ms)
+
+Minimum Latency: Consistently 0.10 ms (no variation)
+Average Latency: Average of 0.116 ms, with a variation from 0.11 ms to 0.12 ms and a standard deviation of 0.0049 ms
+Maximum Latency: Average of 0.342 ms, with a wide range from 0.17 ms to 0.88 ms, and a standard deviation of 0.2704 ms
+95th Percentile Latency: Average of 0.152 ms, ranging from 0.14 ms to 0.17 ms, with a standard deviation of 0.0117 ms
+Total Latency: Average of 60.24 ms, ranging from 57.79 ms to 62.32 ms, with a standard deviation of 1.78 ms

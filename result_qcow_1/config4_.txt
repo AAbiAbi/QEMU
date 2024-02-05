@@ -1,152 +1,233 @@
-Config 4 - CPU Test 1
-Average Events per Second: 1251.89
-Min: 1235.73
-Max: 1274.63
-Standard Deviation: 13.97
+QCOW2 Config 4 - CPU Test 1
+Events per Second
 
-Config 4 - CPU Test 2
-Average Events per Second: 3301.80
-Min: 3244.12
-Max: 3350.93
-Standard Deviation: 34.56
+Average: 1251.89 events/sec
+Minimum: 1235.73 events/sec
+Maximum: 1274.63 events/sec
+Standard Deviation: 13.97 events/sec
+Total Number of Events
 
-Config 4 - File IO Test 1
+Average: 37567 events
+Minimum: 37082 events
+Maximum: 38252 events
+Standard Deviation: 421.66 events
+Total Time (seconds)
 
-Reads/s:
-Average: 2917.84
-Min: 2081.97
-Max: 3507.11
-Std. Dev: 476.82
-Writes/s:
-Average: 1945.20
-Min: 1387.95
-Max: 2338.07
-Std. Dev: 317.89
-Fsyncs/s:
-Average: 6231.37
-Min: 4450.70
-Max: 7489.02
-Std. Dev: 1016.98
-Throughput (MiB/s):
-Read:
-Average: 45.59
-Min: 32.53
-Max: 54.80
-Std. Dev: 7.45
-Written:
-Average: 30.39
-Min: 21.69
-Max: 36.53
-Std. Dev: 4.96
-General Statistics (Total Time in seconds):
-Average: 10.009
-Min: 10.0076
-Max: 10.0133
-Std. Dev: 0.00216
+Average: 30.003 seconds
+Minimum: 30.001 seconds
+Maximum: 30.011 seconds
+Standard Deviation: 0.0038 seconds
+Latency (ms)
 
-Config 4 - File IO Test 2
+Minimum Latency: Constantly 0.75 ms across all tests
+Average Latency: Average of 0.80 ms, with a range from 0.78 ms to 0.81 ms, and a standard deviation of 0.011 ms
+Maximum Latency: Average of 9.97 ms, ranging from 7.96 ms to 15.76 ms, with a standard deviation of 2.98 ms
+95th Percentile Latency: Average of 0.876 ms, with a range from 0.86 ms to 0.90 ms, and a standard deviation of 0.016 ms
+Total Latency Sum (milliseconds)
 
-File Operations Per Second:
-Writes/s:
-Average: 13681.17
-Min: 13262.44
-Max: 14029.00
-Std. Dev: 292.53
-Fsyncs/s:
-Average: 17153.67
-Min: 16976.23
-Max: 17967.41
-Std. Dev: 370.33
-Throughput (MiB/s):
-Written:
-Average: 213.86
-Min: 207.23
-Max: 219.20
-Std. Dev: 4.53
-General Statistics (Total Time in seconds):
-Total Time:
-Average: 10.0058s
-Min: 10.0040s
-Max: 10.0072s
-Std. Dev: 0.00119
-Latency (ms) - Max:
-Max Latency:
-Average: 10.888s
-Min: 7.34s
-Max: 12.38s
-Std. Dev: 1.86
+Average: 29964.60 ms
+Minimum: 29950.87 ms
+Maximum: 29973.85 ms
+Standard Deviation: 7.82 ms
 
-Config 4 - Memory Test 1
-General Statistics:
-Total Time (s):
+QCOW2 Config 4 - CPU Test 2
+Events per Second
 
-Average: 0.11204
-Min: 0.1100
-Max: 0.1183
-Std. Dev: 0.0031
-Total Number of Events:
+Average: 3301.8 events/sec
+Minimum: 3244.12 events/sec
+Maximum: 3350.93 events/sec
+Standard Deviation: 34.56 events/sec
+Total Number of Events
 
-All runs reported exactly 512 events, indicating consistent event handling across tests.
-Latency (ms):
-Minimum:
-Average: 0.19
-Min: 0.19
-Max: 0.19
-Std. Dev: 0.00 (consistent minimum latency across all tests)
-Average:
-Average: 0.212
-Min: 0.21
-Max: 0.22
-Std. Dev: 0.0039
-Maximum:
-Average: 0.412
-Min: 0.32
-Max: 0.61
-Std. Dev: 0.1169
-95th Percentile:
-Average: 0.276
-Min: 0.27
-Max: 0.29
-Std. Dev: 0.0074
-Total Latency Sum (ms):
-Average: 110.07
-Min: 107.89
-Max: 115.07
-Std. Dev: 2.71
+Average: 99077.4 events
+Minimum: 97340 events
+Maximum: 100565 events
+Standard Deviation: 1042.66 events
+Total Time (seconds)
+
+Average: 30.00138 seconds
+Minimum: 30.0009 seconds
+Maximum: 30.0025 seconds
+Standard Deviation: 0.00059 seconds
+Latency (ms)
+
+Minimum Latency: Constantly 0.29 ms across all tests
+Average Latency: Average of 0.302 ms, with a range from 0.30 ms to 0.31 ms, and a standard deviation of 0.004 ms
+Maximum Latency: Average of 6.94 ms, ranging from 2.68 ms to 8.55 ms, with a standard deviation of 2.20 ms
+95th Percentile Latency: Average of 0.334 ms, with a range from 0.32 ms to 0.35 ms, and a standard deviation of 0.0102 ms
+Total Latency Sum (milliseconds)
+
+Average: 29957.81 ms
+Minimum: 29946.56 ms
+Maximum: 29965.9 ms
+Standard Deviation: 6.31 ms
 
 
-Config 4 - Memory Test 2
+QCOW2 Config 4 - File IO Test 1
 
-General Statistics:
-Total Time (s):
+Reads per Second
 
-Average: 0.06546
-Min: 0.0581
-Max: 0.0706
-Std. Dev: 0.0044
-Total Number of Events:
+Average: 2917.84 reads/s
+Minimum: 2081.97 reads/s
+Maximum: 3507.11 reads/s
+Standard Deviation: 476.82 reads/s
+Writes per Second
 
-All runs reported exactly 512 events, indicating consistent event handling across tests.
-Latency (ms):
-Minimum:
-All runs reported a consistent minimum latency of 0.10 ms, showing uniform initial response times.
-Average:
-Average: 0.118
-Min: 0.11
-Max: 0.12
-Std. Dev: 0.004
-Maximum:
-Average: 0.334
-Min: 0.18
-Max: 0.56
-Std. Dev: 0.1532
-95th Percentile:
-Average: 0.146
-Min: 0.12
-Max: 0.16
-Std. Dev: 0.0156
-Total Latency Sum (ms):
-Average: 61.014
-Min: 56.10
-Max: 63.16
-Std. Dev: 2.60
+Average: 1945.20 writes/s
+Minimum: 1387.95 writes/s
+Maximum: 2338.07 writes/s
+Standard Deviation: 317.89 writes/s
+Fsyncs per Second
+
+Average: 6231.37 fsyncs/s
+Minimum: 4450.70 fsyncs/s
+Maximum: 7489.02 fsyncs/s
+Standard Deviation: 1016.98 fsyncs/s
+Read Throughput
+
+Average: 45.59 MiB/s
+Minimum: 32.53 MiB/s
+Maximum: 54.80 MiB/s
+Standard Deviation: 7.45 MiB/s
+Write Throughput
+
+Average: 30.39 MiB/s
+Minimum: 21.69 MiB/s
+Maximum: 36.53 MiB/s
+Standard Deviation: 4.96 MiB/s
+Total Number of Events
+
+Average: 110927 events
+Minimum: 79144 events
+Maximum: 133324 events
+Standard Deviation: 18129.01 events
+Total Time
+
+Average: 10.009 seconds
+Minimum: 10.0076 seconds
+Maximum: 10.0133 seconds
+Standard Deviation: 0.0022 seconds
+Latency (ms)
+
+Minimum Latency: Constantly 0.00 ms across all tests
+Average Latency: Average of 0.092 ms, with a range from 0.07 ms to 0.13 ms, and a standard deviation of 0.0204 ms
+Maximum Latency: Average of 10.5 ms, ranging from 6.71 ms to 18.28 ms, with a standard deviation of 4.20 ms
+95th Percentile Latency: Average of 0.216 ms, with a range from 0.18 ms to 0.28 ms, and a standard deviation of 0.0344 ms
+
+QCOW2 Config 4 - File IO Test 2
+
+Writes per Second
+
+Average: 13681.09 writes/s
+Minimum: 13262.44 writes/s
+Maximum: 14029.00 writes/s
+Standard Deviation: 291.25 writes/s
+Fsyncs per Second
+
+Average: 17143.66 fsyncs/s
+Minimum: 16976.23 fsyncs/s
+Maximum: 17967.41 fsyncs/s
+Standard Deviation: 378.57 fsyncs/s
+Write Throughput
+
+Average: 213.05 MiB/s
+Minimum: 207.23 MiB/s
+Maximum: 219.20 MiB/s
+Standard Deviation: 4.62 MiB/s
+Total Number of Events
+
+Average: 311319 events
+Minimum: 302431 events
+Maximum: 320087 events
+Standard Deviation: 6475.96 events
+Total Time
+
+Average: 10.006 seconds
+Minimum: 10.0051 seconds
+Maximum: 10.0072 seconds
+Standard Deviation: 0.0007 seconds
+Latency (ms)
+
+Minimum Latency: Constantly 0.00 ms across all tests
+Average Latency: Average of 0.03 ms, with a standard deviation of 0.0002 ms
+Maximum Latency: Average of 10.60 ms, with a standard deviation of 1.85 ms
+95th Percentile Latency: Average of 0.05 ms, with a standard deviation of 0.00 ms
+
+
+QCOW2 Config 4 - Memory Test 1
+
+Total Time
+
+Average Total Time: 0.1120 seconds
+Minimum Total Time: 0.1100 seconds
+Maximum Total Time: 0.1183 seconds
+Standard Deviation of Total Time: 0.0032 seconds
+Total Number of Events: Since all tests reported exactly 512 events, there is no variation, so the average, minimum, maximum, and standard deviation are all 512 events with a standard deviation of 0.
+
+Latency (ms)
+
+Minimum Latency
+Average: 0.19 ms
+Minimum: 0.19 ms
+Maximum: 0.19 ms
+Standard Deviation: 0 ms
+Average Latency
+Average: 0.212 ms
+Minimum: 0.21 ms
+Maximum: 0.22 ms
+Standard Deviation: 0.004 ms
+Maximum Latency
+Average: 0.408 ms
+Minimum: 0.32 ms
+Maximum: 0.61 ms
+Standard Deviation: 0.115 ms
+95th Percentile Latency
+Average: 0.276 ms
+Minimum: 0.27 ms
+Maximum: 0.29 ms
+Standard Deviation: 0.007 ms
+Sum of Latencies
+Average: 109.87 ms
+Minimum: 107.89 ms
+Maximum: 115.07 ms
+Standard Deviation: 2.77 ms
+Threads Fairness
+
+Events (avg/stddev): 512.0000/0.00 for all, indicating perfect uniformity across threads.
+Execution time (avg/stddev): Averages around 0.1101 seconds with a negligible standard deviation, indicating consistent execution time across all tests.
+
+QCOW2 Config 4 - Memory Test 2
+
+Total Time
+Average Total Time: 0.0655 seconds
+Minimum Total Time: 0.0581 seconds
+Maximum Total Time: 0.0706 seconds
+Standard Deviation of Total Time: 0.0042 seconds
+2. Total Number of Events
+Since all tests reported exactly 512 events, there is no variation, so the average, minimum, maximum, and standard deviation are all 512 events with a standard deviation of 0.
+3. Latency (ms)
+Minimum Latency
+Average: 0.10 ms
+Minimum: 0.10 ms
+Maximum: 0.10 ms
+Standard Deviation: 0 ms
+Average Latency
+Average: 0.118 ms
+Minimum: 0.11 ms
+Maximum: 0.12 ms
+Standard Deviation: 0.004 ms
+Maximum Latency
+Average: 0.334 ms
+Minimum: 0.18 ms
+Maximum: 0.56 ms
+Standard Deviation: 0.142 ms
+95th Percentile Latency
+Average: 0.146 ms
+Minimum: 0.12 ms
+Maximum: 0.16 ms
+Standard Deviation: 0.014 ms
+Sum of Latencies
+Average: 61.014 ms
+Minimum: 56.10 ms
+Maximum: 63.16 ms
+Standard Deviation: 2.619 ms
